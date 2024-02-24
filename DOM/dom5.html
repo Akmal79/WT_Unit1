@@ -1,0 +1,18 @@
+<html>
+    <body> 
+        <ul id="p1">
+            <li>Web</li>
+            <li>C</li>
+            <li>Java</li>
+        </ul>
+        <button onclick="func()">Replace</button>
+        <script>
+            function func(){
+                const e = document.getElementById("p1").children[0]
+                const n = document.createTextNode("Javascript")
+                e.replaceChild(n,e.childNodes[0])
+
+            }
+        </script>
+    </body>
+</html>

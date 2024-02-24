@@ -1,0 +1,16 @@
+<!--dom manipulation-->
+<html>
+    <body>
+        <div id = "div1">
+            <p id="p1">First paragraph</p>
+            <p id="p2">Second paragh</p>
+        </div>
+        <script>
+            const x = document.createElement("p")
+            const node= document.createTextNode("New paragraph")
+            x.appendChild(node)
+            const e =document.getElementById("div1")
+            e.appendChild(x)
+            </script>
+    </body>
+</html>

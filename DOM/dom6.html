@@ -1,0 +1,24 @@
+<!--remove DOM-->
+<html>
+    <body>
+        <p id="demo">Remove demo</p>
+        <ul id ="p1">
+            <li>Coffe</li>
+            <li>Milk</li>
+            <li>Tea</li>
+        </ul>
+        <button onclick="func()">Remove</button>
+        <button onclick="func1()">Remove Child</button>
+
+        <script>
+            function func(){
+                const e = document.getElementById('demo')
+                e.remove()
+            }
+            function func1(){
+                const list = document.getElementById('p1')
+                list.removeChild(list.firstElementChild);
+            } 
+        </script>
+    </body>
+</html>
