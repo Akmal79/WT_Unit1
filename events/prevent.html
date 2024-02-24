@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <a id="demo" href="https://www.gmail.com">Gmail</a>
+        <script>
+            document.getElementById("demo").addEventListener(
+                "click",
+                function(event) {
+                    event.preventDefault();
+                    window.location.href = "https://www.gmail.com";
+                }
+            );
+        </script>
+    </body>
+</html>

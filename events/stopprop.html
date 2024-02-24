@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <p>Stop propagation</p>
+        <div onclick="func2(event)">Div2
+            <div onclick="func1(event)">Div1</div>
+        </div>
+        <input type="checkbox" id="check">Stop propogation
+
+        <script>
+            function func1(event) {
+                alert('div1');
+                if (document.getElementById("check").checked) {
+                    event.stopPropagation();
+                }
+            }
+
+            function func2(event) {
+                alert('div2');
+            }
+        </script>
+    </body>
+</html>

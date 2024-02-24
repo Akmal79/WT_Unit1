@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <h1> Add event</h1>
+        <button id="btn">Click me</button>
+        <p id="demo"></p>
+        <script>
+            const element = document.getElementById("btn")
+            element.addEventListener("click",func)
+            function func(){
+                document.getElementById('demo').innerHTML="hello world"
+            }
+        </script>
+    </body>
+</html>

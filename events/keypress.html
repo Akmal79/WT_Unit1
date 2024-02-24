@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Key Events</title>
+    </head>
+    <body>
+        <h2>Key Events</h2>
+        Enter your First name:
+        <input type="text" id="fname" onkeyup="func()">
+        <br>
+        <br>
+        Enter your last name:
+        <input type="text" id="lname" onkeydown="func1()">
+        <br>
+        <br>
+        Enter:
+        <input type="text" onkeypress="func2(event)">
+        
+        <p id="demo"></p>
+
+        <script>
+            function func(){
+                let x = document.getElementById("fname");
+                x.value = x.value.toUpperCase();
+            }
+
+            function func1(){
+                document.getElementById("demo").innerHTML = "You pressed a key";
+            }
+
+            function func2(event){
+                alert("You pressed a key");
+            }
+        </script>
+    </body>
+</html>

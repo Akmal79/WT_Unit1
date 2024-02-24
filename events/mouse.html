@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <h1>HTML DOM EVENTS</h1>
+        <h1>MOUSEOVER EVENT</h1>
+
+        <img onmouseover="bigimg(this)" onmouseout="normalimg(this)"
+        border="0" src="Pesu.jpeg" 
+        alt="Smiley" width="32" height="32">
+
+        <script>
+            function bigimg(x) {
+                x.style.height = "94px"; 
+                x.style.width = "94px";  
+            }
+
+            function normalimg(x) {
+                x.style.height = "32px"; 
+                x.style.width = "32px";  
+            }
+        </script>
+    </body>
+</html>
