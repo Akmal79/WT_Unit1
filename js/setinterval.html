@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <h1>Set interval and clear interval</h1>
+        <button onclick="func()">Start</button>
+        <button onclick="Stop()">Stop</button>
+        <script>
+            let x = setInterval(func, 2000)
+            function func(){
+                document.write("Hello ")
+
+            }
+            function Stop(){
+
+                clearInterval(x)
+
+            }
+        </script>
+    </body>
+</html>

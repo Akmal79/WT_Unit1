@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <script>
+            function Person(first, last, age) {
+                this.firstName = first;
+                this.lastName = last;
+                this.age = age;
+            }
+            Person.prototype.nationality = "Indian";
+            const emp = new Person("Virat", "Kohli", 35);
+            document.write("The emp is: " + emp.firstName + " " + emp.lastName + ", Age: " + emp.age + ", Nationality: " + emp.nationality);
+        </script>
+    </body>
+</html>

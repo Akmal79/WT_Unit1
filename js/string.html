@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <h1>String Method</h1>
+        <script>
+            //let trxt = ["a", "b" ,"c"]
+            //let extract = trxt.slice(-3)
+            //document.write("Slcied test is:"+extract +"<br>")
+            //let extract = trxt.toString(); 
+            //document.write("Slcied test is: "+extract +"<br>")
+            //let text = "Hello"
+            let text = "a,b,c,d,e";
+            let arr = text.split(",");
+            text= "";
+            for(let i=0;i<arr.length;i++){
+                text+=arr[i]+"<br>"
+            }
+            document.write("inex selection:")
+            document.write(arr[2])
+
+            document.write("<br>"+text)
+        </script>
+    </body>
+</html>

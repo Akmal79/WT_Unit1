@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <h1>Set interval and clear interval</h1>
+        <p id="p1"></p>
+        <button onclick="Start()">Start</button>
+        <button onclick="Stop()">Stop</button>
+        <script>
+            let x; // Declare x outside the functions to make it accessible to both functions
+
+            function Start() {
+                x = setTimeout(function () {
+                    document.getElementById("p1").innerHTML = "Hello ";
+                }, 3000);   
+            }
+
+            function Stop() {
+                clearTimeout(x);
+                document.getElementById("p1").innerHTML = ""; // Clear the content when stopping
+            }
+        </script>
+    </body>
+</html>
