@@ -1,0 +1,79 @@
+JavaScript (JS) is the top programming language for web development, used for both Client-Side and Server-Side purposes. It’s is also known as a scripting language for web pages.
+It is commonly used to create dynamic and interactive content on websites.
+JS plays a crucial role in modern web browsers, enabling client-side scripting to modify web page content in real-time, enhancing user experience.
+
+JavaScript Variables are the building blocks of any programming language. In JavaScript, variables can be used to store reusable values.
+The values of the variables are allocated using the assignment operator(“=”).
+
+JavaScript Identifiers
+JavaScript variables must have unique names. These names are called Identifiers.
+
+There are some basic rules to declare a variable in JavaScript:
+These are case-sensitive
+Can only begin with a letter, underscore(“_”) or “$” symbol
+It can contain letters, numbers, underscore, or “$” symbol
+A variable name cannot be a reserved keyword.
+JavaScript is a dynamically typed language so the type of variables is decided at runtime. Therefore there is no need to explicitly define the type of a variable.
+We can declare variables in JavaScript in three ways:
+
+JavaScript var keyword
+JavaScript let keyword
+JavaScript const keyword 
+Note: In JavaScript, variables can be declared automatically.
+
+
+Primitive Data Types
+The predefined data types provided by JavaScript language are known as primitive data types. Primitive data types are also known as in-built data types.
+
+Number: JavaScript numbers are always stored in double-precision 64-bit binary format IEEE 754. Unlike other programming languages, you don’t need int, float, etc to declare different numeric values.
+String: JavaScript Strings are similar to sentences. They are made up of a list of characters, which is essentially just an “array of characters, like “Hello GeeksforGeeks” etc.
+Boolean: Represent a logical entity and can have two values: true or false.
+Null: This type has only one value that is null.
+Undefined: A variable that has not been assigned a value is undefined.
+Symbol: Symbols return unique identifiers that can be used to add unique property keys to an object that won’t collide with keys of any other code that might add to the object.
+BigInt: BigInt is a built-in object in JavaScript that provides a way to represent whole numbers larger than 253-1.
+
+Non-Primitive Data Types:
+The data types that are derived from primitive data types of the JavaScript language are known as non-primitive data types. It is also known as derived data types or reference data types.
+Object: It is the most important data type and forms the building blocks for modern JavaScript. We will learn about these data types in detail in further articles.
+
+JavaScript for loop is used to iterate the elements for a fixed number of times. JavaScript for loop is used if the number of the iteration is known.
+
+Syntax
+for (statement 1 ; statement 2 ; statement 3){
+    code here...
+}
+Statement 1: It is the initialization of the counter. It is executed once before the execution of the code block.
+Statement 2: It defines the testing condition for executing the code block
+Statement 3: It is the increment or decrement of the counter & executed (every time) after the code block has been executed.
+
+
+A While Loop in JavaScript is a control flow statement that allows the code to be executed repeatedly based on the given boolean condition. The while loop can be thought of as a repeating if statement. 
+The loop can be used to execute the specific block of code multiple times until it fails to match the condition.
+There are mainly two types of loops:
+Entry Controlled loops: In this type of loop, the test condition is tested before entering the loop body.
+For Loop and While Loops are entry-controlled loops.
+Exit Controlled Loops: In this type of loop the test condition is tested or evaluated at the end of the loop body.
+Therefore, the loop body will execute at least once, irrespective of whether the test condition is true or false. the do-while loop is exit controlled loop.
+
+
+JavaScript function is a set of statements that take inputs, do some specific computation, and produce output.
+
+
+Javascript has events to provide a dynamic interface to a webpage. These events are hooked to elements in the Document Object Model(DOM). 
+These events by default use bubbling propagation i.e, upwards in the DOM from children to parent. We can bind events either as inline or in an external script. 
+Syntax:
+
+<HTML-element Event-Type = "Action to be performed">
+These are some javascript events: 
+
+JavaScript onclick events: This is a mouse event and provokes any logic defined if the user clicks on the element it is bound to.
+
+JavaScript onkeyup event: This event is a keyboard event and executes instructions whenever a key is released after pressing. 
+
+onmouseover event: This event corresponds to hovering the mouse pointer over the element and its children, to which it is bound to. 
+
+JavaScript onmouseout event: Whenever the mouse cursor leaves the element which handles a mouseout event, a function associated with it is executed. 
+
+
+
